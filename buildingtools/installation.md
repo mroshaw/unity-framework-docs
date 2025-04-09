@@ -1,6 +1,6 @@
 ---
 title: Installation
-nav_order: 2
+nav_order: 3
 parent: Building Tools
 ---
 
@@ -27,7 +27,7 @@ The package has these Unity dependencies, which you'll be prompted to install:
 
 In order to implement some of the functionality, the package requires specific `Layers` and `RenderingLayers` to be present in your project settings.
 
-You can either add these manually, or using the "Set up Tags and Layers" button in the main editor window. Note that this automated processed will look for available slots for tags and layers and won't overwrite what's there. Rendering Layer names are, however, overwritten.
+You can either add these manually, or using the "Set up" button in the main editor window. Note that this automated processed will look for available slots for tags and layers and won't overwrite what's there. Rendering Layer names are, however, overwritten.
 
 To configure these manually, go to Edit > Project Settings > Tags and Layers...
 
@@ -45,7 +45,9 @@ Update the following `Rendering Layers`, setting the name for the given layer in
 
 ## Install Samples
 
-The package comes with a sample folder contain some example assets, such as door sounds and an AudioMixer, and presets for the "3D Forge" building assets. You can install this via the Package Manager by selecting the "Daft Apple Building Tools" package, clicking "Samples" and clicking the "Import" button:
+The package comes with a sample folder contain some example assets, such as door sounds and an AudioMixer, and presets for the "3D Forge" building assets. Due to the way lighting works in Unity, there are sample packages for each of the three render pipelines, and you should import the one relevant to your project. The render pipeline specific packages rely on shared assets from the "Sample Assets" package, so please install this first.
+
+ You can install the samples via the Package Manager by selecting the "Daft Apple Building Tools" package, clicking "Samples" and clicking the "Import" button next to the packages you want to install:
 
 ![](.\media\importsamples.png)
 

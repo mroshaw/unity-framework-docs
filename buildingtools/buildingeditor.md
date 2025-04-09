@@ -1,6 +1,6 @@
 ---
-title: The Building Editor Tool
-nav_order: 3
+title: Building Editor Tool Window
+nav_order: 5
 parent: Building Tools
 ---
 
@@ -32,9 +32,8 @@ The window looks like this:
 
 ![](.\media\buildingeditorwindow.png)
 
-### Set Up Tags and Layers
+Each button represents a specific "Tool" in the package. You can find details of each of the tools using the navigation links on the left.
 
-### Add Building Components
-
-### Configure Layers
-
+> [!TIP]
+>
+> All of the tools use the "Undo" feature of the Unity editor. Having run any one of the tools, you can completely undo any changes made via the "Undo History" menu item.
