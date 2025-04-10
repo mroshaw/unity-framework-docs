@@ -21,4 +21,4 @@ The Configure Doors tool:
 
 This tool uses these properties of the `BuildingWizardEditorSettings`:
 
-![](..\media\propstoolsettings.png)
+![](..\media\doortoolsettings.png)
