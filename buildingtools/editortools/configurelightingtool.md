@@ -27,3 +27,7 @@ The Configure Lighting tool:
 
 
 ## Detailed Usage
+
+This tool uses these properties of the `BuildingWizardEditorSettings`:
+
+![](..\media\lightingtoolsettings.png)

@@ -4,15 +4,16 @@ nav_order: 2
 parent: Building Editor Tool Window
 ---
 
-# Add Building Tool
+# Initialize Building Tool
 
-This tool gets your selected Game Object ready for use by other tools in the package.
+This tool gets your selected Game Object ready for use by other tools in the package, and makes positioning the building easier.
 
 ## Quick Overview
 
 The Add Building Component tool:
 
 - Adds a "Building" component to your selected Game Object, if such a component does not already exist.
+- Moves the children of the Game Object so that the effective building anchor allows for an amount of plinth to be shown. This makes positioning the building on an uneven surface, such as a Terrain, much easier.
 
 > [!IMPORTANT]
 >

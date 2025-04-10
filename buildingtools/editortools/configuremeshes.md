@@ -12,9 +12,13 @@ This tool configures meshes within your selected building Game Object, giving yo
 
 The Configure Meshes tool:
 
-- Sets the "Layer" property depending on where the mesh appears within your building.
-- Sets the "Static Flags" property, optimising performance of rendering of your building and shadows.
-- 
+- Takes a set of preconfigured `MeshRenderer` parameter settings and applies them to all Interior, Exterior and Prop meshes in the selected game object.
+  - All `MeshRenderer` properties can be configured, and support for pipeline specific properties is in the works.
+
 
 
 ## Detailed Usage
+
+This tool uses these properties of the `BuildingWizardEditorSettings`:
+
+![](..\media\meshtoolsettings.png)

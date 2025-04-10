@@ -16,3 +16,7 @@ The Configure Volumes tool:
 - Adds an "Interior Audio Filter" component, that allows you to create a "muffled" sound for outdoor/ambient audio when the player enters the building.
 
 ## Detailed Usage
+
+This tool uses these properties of the `BuildingWizardEditorSettings`:
+
+![](..\media\volumetoolsettings.png)
