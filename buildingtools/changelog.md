@@ -1,7 +1,7 @@
 ---
 title: Change Log
 nav_order: 2
-parent: Building Tools
+parent: Building Tools Introduction
 ---
 
 # Change Log

@@ -17,3 +17,7 @@ The Optimise Meshes Tool:
 - Saves the combined meshes as assets and reconfigures the Game Object to use the new meshes.
 
 ## Detailed Usage
+
+This tool uses these properties of the `BuildingWizardEditorSettings`:
+
+![](..\media\optimisemeshtoolsettings.png)

@@ -1,7 +1,7 @@
 ---
 title: Installation
 nav_order: 3
-parent: Building Tools
+parent: Building Tools Introduction
 ---
 
 # Installation

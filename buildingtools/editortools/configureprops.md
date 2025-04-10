@@ -19,3 +19,7 @@ The Configure Props tool:
 - Where props sit directly on a Terrain in your scene, the props are aligned correctly to the terrain.
 
 ## Detailed Usage
+
+This tool uses these properties of the `BuildingWizardEditorSettings`:
+
+![](..\media\propstoolsettings.png)

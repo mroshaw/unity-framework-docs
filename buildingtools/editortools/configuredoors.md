@@ -18,3 +18,7 @@ The Configure Doors tool:
 - Ensures the "Static Flags" are set to allow the door to move.
 
 ## Detailed Usage
+
+This tool uses these properties of the `BuildingWizardEditorSettings`:
+
+![](..\media\propstoolsettings.png)

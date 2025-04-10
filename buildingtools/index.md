@@ -6,17 +6,20 @@ parent: Building Tools
 
 # Daft Apple Building Tools
 
-This package provides editor tools and run-time components to allow quick, consistent configuration of building assets in a Unity project. This includes setting up efficient and effective lighting, alignment of props with the terrain, automatically adding working doors, and mesh optimisation. The package comes with pre-sets and examples for configuring the excellent 3D Forge village assets. Third party assets are not required to use this package, however.
+Daft Apple Building Tools provides editor windows, editor tools, and run-time components to allow quick, consistent configuration of building assets in a Unity project. Features include consistent configuration of mesh renders, setting up efficient and effective lighting, fixing colliders and aligning props on the terrain, automatically adding working doors, and mesh optimisation. The package comes with pre-sets and examples for configuring the excellent [3D Forge village assets](https://assetstore.unity.com/publishers/2970) with specific presets for each of the 3 Unity render pipelines. Everything is extensible and configurable and you are encouraged to create your own presets and make the most out of the tools for your particular project and use cases.
+
+Note that third party assets are not required to use the tools in this package.
 
 ![](.\media\buildingtoolsbanner.png)
 
 > [!IMPORTANT]
 >
-> This package is supported in Unity 6 LTS ONLY! A number of useful changes came into Unity 6 and I've made use of these where possible in this package. I have tested in Unity 6 ONLY and would expect compilation errors and general failures if used with an earlier version of Unity.
+> Building Tools is supported in **Unity 6 LTS ONLY**! A number of useful changes came into Unity 6 and I've made use of these where possible in this package. I have tested in Unity 6 ONLY and would expect compilation errors and general failures if used with an earlier version of Unity.
 
-This package was designed to be as innocuous as possible:
+## Support
 
-- All Editor specific script is contained within "Editor Only" assembly definitions. So the package won't add unnecessary code to your game builds.
-- All Run Time components are granular and optional. Nothing is enforced by the package - if you want to remove a particular component, then you can.
-- Code is clean and as error and warning free as possible. I hate it when I install third party packages and am met by hundreds of compiler warnings! I've done my best to ensure this doesn't happen, and that the code is well structured, easy to follow, and easy to extend.
+Limited support for these tools will be provided via "[Issues](https://github.com/mroshaw/building-tools/issues)" in the GitHub repository.
 
+> [!IMPORTANT]
+>
+> This package, and Daft Apple Games, are in no way affiliated with 3D Forge. Please do not ask them for support for these tools!
