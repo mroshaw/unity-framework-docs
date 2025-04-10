@@ -18,7 +18,7 @@ Note that third party assets are not required to use the tools in this package.
 
 ## Support
 
-Limited support for these tools will be provided via "[Issues](https://github.com/mroshaw/building-tools/issues)" in the GitHub repository.
+Limited support for these tools will be provided via [Issues](https://github.com/mroshaw/building-tools/issues) in the GitHub repository.
 
 > [!IMPORTANT]
 >

@@ -6,7 +6,7 @@ parent: Building Tools Introduction
 
 # Package Overview
 
-Building Tools is in active development, completely free, and open source. I'm tracking features and bugs in a GitHub project KanBan, so you can see exactly what's in the pipeline by check out the [Building Tools Project Page](https://github.com/users/mroshaw/projects/1/views/1).
+Building Tools is in active development, completely free, and open source. I'm tracking features and bugs in a GitHub project KanBan, so you can see exactly what's in the pipeline by checking out the [Building Tools Project Page](https://github.com/users/mroshaw/projects/1/views/1).
 
 ## Core Functions
 
