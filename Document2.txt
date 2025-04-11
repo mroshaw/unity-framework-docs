@@ -1,0 +1,4 @@
+Cannot convert source type 'UnityEngine.RenderingLayerMask' to target type 'UnityEngine.Rendering.HighDefinition.RenderingLayerMask'
+
+
+markdown: GFM

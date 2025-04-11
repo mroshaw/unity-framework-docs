@@ -1,16 +1,16 @@
 ---
-title: Configure Lighting Tool
+title: Set Up Lighting Tool
 nav_order: 6
 parent: Building Editor Tool Window
 ---
 
-# Configure Lighting Tool
+# Set Up Lighting Tool
 
 This tool configures lights within your selecting building Game Object and adds components to give you control over their function.
 
 ## Quick Overview
 
-The Configure Lighting tool:
+The Set Up Lighting tool:
 
 - Adds a "Lighting Controller" to the building, allowing you to control groups of lights within the building structure.
 - Adds a "Building Light" component to each light within the building, giving more granular control over it's function.

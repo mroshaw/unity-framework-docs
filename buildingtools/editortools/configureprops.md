@@ -1,16 +1,16 @@
 ---
-title: Configure Props Tool
+title: Fix Props Tool
 nav_order: 4
 parent: Building Editor Tool Window
 ---
 
-# Configure Props Tool
+# Fix Props Tool
 
 This tool configures props, like barrells, crates, etc, within your building structures.
 
 ## Quick Overview
 
-The Configure Props tool:
+The Fix Props tool:
 
 - Searches for mesh game objects by name and adds any missing Colliders.
   - For example:
