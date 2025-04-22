@@ -1,12 +1,12 @@
 ---
 title: Change Log
 nav_order: 2
-parent: Building Tools Introduction
+parent: Unity Framework Introduction
 ---
 
 # Change Log
 
-The latest version of Building Tools is 0.9.0.
+The latest version of the Daft Apple Unity Framework is 0.9.0.
 
 The change log for the various released versions can be found below.
 
