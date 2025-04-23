@@ -14,7 +14,7 @@ The Set Up Scene tool:
 
 - Looks for a single "Directional" light in your scene and configures the "Lighting Layers", "Rendering Layers", or "Culling Layers", depending on which render pipeline is currently in use for the open project.
 
-What this does is sets the main scene light (for example, the sun), exactly what meshes are influenced by it's light.
+What this does is tells the main scene `Light` (for example, the sun), exactly what meshes are influenced by it's light.
 
 ## Parameters
 

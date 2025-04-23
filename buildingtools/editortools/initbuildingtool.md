@@ -23,12 +23,8 @@ You must configure the component by dragging child Game Objects from your buildi
 
 - Groups of meshes representing the "Exterior" of your building.
 - Groups of meshes representing the "Interior" of your building.
-- Groups of meshes representing any "Indoor Props" that existing within your building.
-- Groups of meshes representing any "Outdoor Props" that existing within your building instance or prefab.
-
-> [!IMPORTANT]
->
-> If your "Props" meshes sit within the "Exterior" or "Interior" of your building, from a hierarchy perspective, then you must move them outside of those game objects.
+- Groups of meshes representing any "Indoor Props" that exist within your building.
+- Groups of meshes representing any "Outdoor Props" that exist within your building instance or prefab.
 
 ## Parameters
 
