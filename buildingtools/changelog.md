@@ -1,15 +1,38 @@
 ---
 title: Change Log
 nav_order: 2
-parent: Building Tools Introduction
+parent: Building Tools
 ---
 
 # Change Log
 
-The latest version of Building Tools is 0.9.0.
+Changes logs for the latest version of Building Tools is shown below. Change logs for older versions can be found at the end of this document.
 
-The change log for the various released versions can be found below.
+## Version 0.9.0 - May 1st 2025
 
-## Version 0.9.0
+- Initial release.
 
-Initial release.
+## Known Issues / Limitations
+
+### General
+
+- 
+
+### URP
+
+- 
+
+### BIRP
+
+- 
+
+## Previous Releases
+
+### Version 0.1.0 - Jan 1st 2025
+
+#### Enhancements
+
+
+
+#### Bug Fixes
+

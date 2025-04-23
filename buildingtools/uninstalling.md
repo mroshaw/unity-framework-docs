@@ -1,7 +1,7 @@
 ---
 title: Uninstalling
 nav_order: 4
-parent: Building Tools Introduction
+parent: Building Tools
 ---
 
 # Uninstalling

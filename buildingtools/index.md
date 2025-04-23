@@ -1,5 +1,5 @@
 ---
-title: Building Tools Introduction
+title: Introduction
 nav_order: 1
 parent: Building Tools
 ---

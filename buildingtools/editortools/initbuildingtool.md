@@ -1,7 +1,7 @@
 ---
-title: Add Building Tool
-nav_order: 2
-parent: Building Editor Tool Window
+title: Initialize Building Tool
+nav_order: 3
+parent: Tools User Guide
 ---
 
 # Initialize Building Tool
@@ -30,6 +30,10 @@ You must configure the component by dragging child Game Objects from your buildi
 >
 > If your "Props" meshes sit within the "Exterior" or "Interior" of your building, from a hierarchy perspective, then you must move them outside of those game objects.
 
-## Detailed Usage
+## Parameters
 
-There's nothing more to this tool. Simply click to add the component and configure using the instructions above.
+These parameters can be configured on an instance of this tool:
+
+| Parameter            | Purpose                                                      |
+| -------------------- | ------------------------------------------------------------ |
+| Adjust Anchor Height | How far "up" all Mesh Renderers are raised above the current anchor position of the main building Game Object. |

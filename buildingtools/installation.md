@@ -1,29 +1,23 @@
 ---
 title: Installation
 nav_order: 3
-parent: Building Tools Introduction
+parent: Building Tools
 ---
 
 # Installation
 
-## Package dependencies
+## Package Package and Dependencies
 
 The package relies on a number of scripts and resources in the "daftapple-core" package. You must install this first through package manager:
 
 1. Open the package manager window.
 2. From the menu in the top left, pick "Install package from git URL..."
-3. Copy and paste this URL: `https://github.com/mroshaw/daftapple-core.git`
+3. Copy and paste this URL: `https://github.com/mroshaw/daftapple-core.git`![](.\media\installcorepackage.png)
 4. Click install.
 
-You can now install the "building-tools" package by following the same process with this URL:
+5. You can now install the "building-tools" package by following the same process with this URL: `https://github.com/mroshaw/building-tools.git`![](.\media\installbuildingpackage.png)
 
-`https://github.com/mroshaw/building-tools.git`
-
-The package has these Unity dependencies, which you'll be prompted to install:
-
-- Splines 2.7.2 (com.unity.splines)
-
-## Project settings
+## Project Settings
 
 In order to implement some of the functionality, the package requires specific `Layers` and `RenderingLayers` to be present in your project settings.
 
@@ -51,3 +45,10 @@ The package comes with a sample folder contain some example assets, such as door
 
 ![](.\media\importsamples.png)
 
+To use the `SimpleFlyCamera` component in the samples, you'll need to set the project player input settings to handle both the "old" and "new" input systems:
+
+`Project Settings > Player > Configuration` 
+
+Set "Active Input Handling" to "Both":
+
+![](.\media\playerinputsettings.png)

@@ -1,7 +1,7 @@
 ---
 title: About Daft Apple Games
 nav_order: 5
-parent: Building Tools Introduction
+parent: Building Tools
 ---
 
 # About Daft Apple Games
