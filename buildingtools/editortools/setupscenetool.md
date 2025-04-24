@@ -12,9 +12,8 @@ This tool sets up dependent objects and components that are active in your curre
 
 The Set Up Scene tool:
 
-- Looks for a single "Directional" light in your scene and configures the "Lighting Layers", "Rendering Layers", or "Culling Layers", depending on which render pipeline is currently in use for the open project.
-
-What this does is tells the main scene `Light` (for example, the sun), exactly what meshes are influenced by it's light.
+- Looks for a single "Directional" light in your scene and configures the "Lighting Layers", "Rendering Layers", or "Culling Layers", depending on which render pipeline is currently in use for the open project. This effectively tells the main scene `Light` (for example, the sun), exactly what meshes are influenced by it's light.
+- Adds an `OnDemandShadowMapUpdate` component, if configured to do so, that helps control the frequency of shadow updates triggered by the directional light. This can significantly improve the performance of shadow rendering in the scene. 
 
 ## Parameters
 
@@ -24,4 +23,6 @@ These parameters can be configured on an instance of this tool:
 | ---------------------------------------------------------- | ------------------------------------------------------------ |
 | Directional Light Rendering Layer Mask (URP and HDRP only) | Determines which meshes are influence by the main directional light, driven by "Rendering Layers", which is a concept only supported in the "Scriptable" rendering pipelines. |
 | Directional Light Culling Layer Mask (BIRP only)           | Determines which meshes are influence by the main directional light, driven by the mesh renderer Game Object layers. |
+| Add On Demand Shadow Map Component (HDRP only)             | If true, an `OnDemandShadowMapUpdate` component will be added to your main Directional Light. This can be configured to update the shadow on the light every n frames or m seconds. This can be a significant performance improvement if you are currently updating shadows every frame. |
+| Shadow Refresh Rate (HDRP only)                            | Sets the number of frames to wait before refreshing the shadows of a light, driven by the new `OnDemandShadowUpdate` component. |
 
