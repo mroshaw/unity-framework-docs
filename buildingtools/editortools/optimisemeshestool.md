@@ -28,4 +28,4 @@ These parameters can be configured on an instance of this tool:
 | Create Output Folder    | If the Asset Output Folder does not exist, checking this will cause the tool to create it. |
 | Is 32Bit                | If checked, forces the created mesh to use a 32-bit index format. Otherwise, it will use a 16-bit index format. See [Mesh.indexFormat](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mesh-indexFormat.html) for more details. |
 | Generate Secondary UVs  | Forces the tool to generate the UVs for the new combined meshes. |
-| Combined Mesh Presets   | This is an instance of the Apply Mesh Presets Tool, and is used to apply preset parameters to the newly created merged meshes. |
+| Combined Mesh Presets   | This is an instance of the Apply Mesh Presets Tool, and is used to apply pre-set parameters to the newly created merged meshes. Note that in the case of a "whole building" merge (if "Combine Meshes By Layer" is unchecked), then the resulting meshing will have the "Building Exterior" mesh pre-sets applied. |

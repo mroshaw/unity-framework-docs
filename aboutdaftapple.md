@@ -1,7 +1,6 @@
 ---
 title: About Daft Apple Games
-nav_order: 5
-parent: Building Tools
+nav_order: 3
 ---
 
 # About Daft Apple Games
@@ -21,3 +20,4 @@ The packages that I build are always designed to be as useful and innocuous as p
 - Assembly definitions are used where appropriate, to keep code clean, decoupled, safe, and ensure your project compile times are kept down.
 - All Editor specific script is contained within "Editor Only" assembly definitions. My packages won't add unnecessary code to your game builds and you won't find my tools taking up valuable time in your update loop.
 
+![](.\media\daftapplelogo.png)

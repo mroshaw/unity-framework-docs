@@ -1,7 +1,6 @@
 ---
 title: Change Log
 nav_order: 2
-parent: Unity Framework Introduction
 ---
 
 # Change Log

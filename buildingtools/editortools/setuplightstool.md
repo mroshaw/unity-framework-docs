@@ -14,12 +14,12 @@ The Set Up Lighting tool:
 
 - Adds a "Lighting Controller" to the building, allowing you to control groups of lights within the building structure.
 - Adds a "Building Light" component to each light within the building, giving more granular control over it's function.
-- Configures lights for as one of three types, depending on the name:
+- Configures lights for any one of three types, identified by the containing Game Object name:
   - Indoor candles
   - Indoor fires (cookers, fireplaces)
   - Outdoor lights
 
-- Configures the range, intensity, color depending on the type of light.
+- Configures the range, intensity, and colour depending on the type of light.
 - Removes unsupported "built in" Flare components when using URP or HDRP pipelines.
 - Replaces "built in" Flare components with SRP Flare components, along with a preconfigured sample flare setup.
 - Configures the interior, exterior and prop meshes based on their location, enabling "Probe" lighting support and associating meshes with interior, exterior or both Rendering Layers.
@@ -48,9 +48,9 @@ Each of these properties is itself an instance of a class with the following pro
 | Lens Flare Data (HDRP and URP only)            | SRP Lens Flare configuration for the lens flare, if one is added. |
 | Add On Demand Shadow Map Component (HDRP only) | If true, an `OnDemandShadowMapUpdate` component will be added to the light. This can be configured to update the shadow on the light every n frames or m seconds. This can be a significant performance improvement if you are currently updating shadows every frame. |
 | Shadow Refresh Rate (HDRP only)                | Sets the number of frames to wait before refreshing the shadows of a light, driven by the new `OnDemandShadowUpdate` component. |
-| Preset Settings                                | Light properties to be applied to each light. See the "Ligh Pre-sets" section below. |
+| Preset Settings                                | Light properties to be applied to each light. See the "Light Presets" section below. |
 
-### Light Pre-sets
+### Light Presets
 
 Each of the "Preset Settings" properties of this tool are themselves Scriptable Object instances. Each instance has these parameters, which are derived directly from the "Light" component in Unity. Therefore, you can refer to the [Unity Light API page](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Light.html) for details of each of the properties.
 
