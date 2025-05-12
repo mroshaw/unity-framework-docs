@@ -8,23 +8,25 @@ parent: Building Tools
 
 Changes logs for the latest version of Building Tools is shown below. Change logs for older versions can be found at the end of this document.
 
-## Version 0.9.0 - May 1st 2025
+## Version 1.0.0 - May 14th 2025
 
-- Initial release.
+- Initial full release.
 
 ## Known Issues / Limitations
 
 ### General
 
-- 
+### BIRP
+
+- There is no equivalent of the "Interior Volume" functionality yet for the Built In Render Pipeline.
+
+### HDRP
+
+- Interior "Volume Profile" is basic, with simple "Color Adjustments" overrides.
 
 ### URP
 
-- 
-
-### BIRP
-
-- 
+- Interior "Volume Profile" is basic, with simple "Fog", "Indirect Lighting, and "Exposure" overrides.
 
 ## Previous Releases
 

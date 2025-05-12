@@ -19,10 +19,10 @@ The Set Up Scene tool:
 
 These parameters can be configured on an instance of this tool:
 
-| Parameter                                                  | Purpose                                                      |
-| ---------------------------------------------------------- | ------------------------------------------------------------ |
-| Directional Light Rendering Layer Mask (URP and HDRP only) | Determines which meshes are influence by the main directional light, driven by "Rendering Layers", which is a concept only supported in the "Scriptable" rendering pipelines. |
-| Directional Light Culling Layer Mask (BIRP only)           | Determines which meshes are influence by the main directional light, driven by the mesh renderer Game Object layers. |
-| Add On Demand Shadow Map Component (HDRP only)             | If true, an `OnDemandShadowMapUpdate` component will be added to your main Directional Light. This can be configured to update the shadow on the light every n frames or m seconds. This can be a significant performance improvement if you are currently updating shadows every frame. |
-| Shadow Refresh Rate (HDRP only)                            | Sets the number of frames to wait before refreshing the shadows of a light, driven by the new `OnDemandShadowUpdate` component. |
+| Parameter                              | Purpose                                                      |
+| -------------------------------------- | ------------------------------------------------------------ |
+| Directional Light Rendering Layer Mask | HDRP and URP Render Pipelines only. Determines which meshes are influence by the main directional light, driven by "Rendering Layers", which is a concept only supported in the "Scriptable" rendering pipelines. |
+| Directional Light Culling Layer Mask   | Built In Render Pipeline only. Determines which meshes are influence by the main directional light, driven by the mesh renderer Game Object layers. |
+| Add On Demand Shadow Map Component     | HDRP and URP Render Pipelines only. If true, an `OnDemandShadowMapUpdate` component will be added to your main Directional Light. This can be configured to update the shadow on the light every n frames or m seconds. This can be a significant performance improvement if you are currently updating shadows every frame. |
+| Shadow Refresh Rate                    | HDRP and URP Render Pipelines only. Sets the number of frames to wait before refreshing the shadows of a light, driven by the new `OnDemandShadowUpdate` component. |
 

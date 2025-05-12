@@ -19,11 +19,11 @@ The Set Up tool:
 
 These parameters can be configured on an instance of this tool:
 
-| Parameter                                      | Purpose                                                      |
-| ---------------------------------------------- | ------------------------------------------------------------ |
-| Exterior Layer Name                            | Name of the layer on which building exteriors (think outer walls, etc) will sit. |
-| Interior Layer Name                            | Name of the layer on which building interiors (think inner walls, etc) will sit. |
-| Interior Props Layer Name                      | Name of the layer on which interior props (think tables, chairs, rugs, etc) will sit. |
-| Exterior Props Layer Name                      | Name of the layer on which exterior props (think barrels, carts, stables, etc) will sit. |
-| Exterior Renderer Layer Name (HDRP / URP only) | Name of Rendering Layer that will be influenced by Exterior lights. |
-| Interior Renderer Layer Name (HDRP / URP only) | Name of Rendering Layer that will be influenced by Interior lights. |
+| Parameter                    | Purpose                                                      |
+| ---------------------------- | ------------------------------------------------------------ |
+| Exterior Layer Name          | Name of the layer on which building exteriors (think outer walls, etc) will sit. |
+| Interior Layer Name          | Name of the layer on which building interiors (think inner walls, etc) will sit. |
+| Interior Props Layer Name    | Name of the layer on which interior props (think tables, chairs, rugs, etc) will sit. |
+| Exterior Props Layer Name    | Name of the layer on which exterior props (think barrels, carts, stables, etc) will sit. |
+| Exterior Renderer Layer Name | HDRP and URP Render Pipelines only. Name of Rendering Layer that will be influenced by Exterior lights. |
+| Interior Renderer Layer Name | HDRP and URP Render Pipelines only. Name of Rendering Layer that will be influenced by Interior lights. |

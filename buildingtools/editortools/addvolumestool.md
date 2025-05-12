@@ -34,8 +34,11 @@ These parameters can be configured on an instance of this tool:
 | Parameter                                   | Purpose                                                      |
 | ------------------------------------------- | ------------------------------------------------------------ |
 | Mesh Size Ignore Names                      | When determining the "bounds" of a building, any mesh renderer Game Objects containing these names are ignored by the calculation, as are any of their children. Can be used to remove "invisible" meshes, such as those under the ground or that "overhang" the interior space, from the calculation. |
+| Mesh Size Include Layers                    | LayerMask containing layers that will be considered by the mesh size calculation. Only mesh renderers within these layers will be considered. |
 | Interior Volume Game Object Name            | Name of the Game Object created, if not there already, that contains the various volume components. |
 | Interior Volume Profile (HDRP and URP only) | Selected Volume Profile that will be applied when the player/camera enters the building. |
 | Indoor Snapshot                             | AudioMixer Snapshot corresponding to the AudioMixer profile that is applied when the player/camera enters the building. Typically contains "Lowbypass/Highbypass" filters to "muffle" the audio. |
 | Outdoor Snapshot                            | AudioMixer Snapshot corresponding to the AudioMixer profile that is applied when the player/camera exists the building. Typically a "clean" snapshot profile. |
+| Volume Trigger Tags                         | When a collider enters the volume trigger collider, only colliders on Game Objects with one of these tags will trigger the volume effect. |
+| Volume Trigger Layer                        | When a collider enters the volume trigger collider, only colliders on Game Objects on one of these layerswill trigger the volume effect. |
 

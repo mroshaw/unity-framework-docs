@@ -1,6 +1,6 @@
 ---
 title: Installation
-nav_order: 3
+nav_order: 4
 parent: Building Tools
 ---
 
@@ -38,13 +38,13 @@ Update the following `Rendering Layers`, setting the name for the given layer in
 
 ## Install Samples
 
-The package comes with a sample folder contain some example assets, such as door sounds and an AudioMixer, and presets for the "3D Forge" building assets. Due to the way lighting works in Unity, there are sample packages for each of the three render pipelines, and you should import the one relevant to your project. The render pipeline specific packages rely on shared assets from the "Sample Assets" package, so please install this first.
+The package comes with a sample folder contain some example assets, such as door sounds and an AudioMixer, and presets for the "3D Forge" building assets. Due to the way lighting and meshes work in Unity, there are sample packages for each of the three render pipelines, and you should import the one relevant to your project. The render pipeline specific packages rely on shared assets from the "Sample Assets" package, so please install this first.
 
 > [!IMPORTANT]
 >
-> No 3rd party assets whatsoever are included in the samples. They provide a staging scene, with a terrain and pipeline configured lighting, a simple "Fly Cam" attached to the camera, and some sample ambient audio and effects. You can using this staging scene to drag in your buildings and experiment with the tools.
+> No 3rd party assets whatsoever are included in the samples. They provide a staging scene, with a terrain and pipeline configured lighting, a simple "Fly Cam" attached to the camera, and some sample ambient audio and effects. They include a set of "example" tools configurations to help you get started, setup to work with 3D Forge building prefabs. You can using the staging scene to drag in your buildings and experiment with the tools and settings.
 
- You can install the samples via the Package Manager by selecting the "Daft Apple Building Tools" package, clicking "Samples" and clicking the "Import" button next to the packages you want to install:
+You can install the samples via the Package Manager by selecting the "Daft Apple Building Tools" package, clicking "Samples" and clicking the "Import" button next to the packages you want to install:
 
 ![](.\media\importsamples.png)
 

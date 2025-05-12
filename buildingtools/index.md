@@ -8,7 +8,12 @@ parent: Building Tools
 
 Daft Apple Building Tools provides editor windows, editor tools, and run-time components to allow quick, consistent configuration of building assets in a Unity project. Features include consistent configuration of mesh renders, setting up efficient and effective lighting, fixing colliders and aligning props on the terrain, automatically adding working doors, and mesh optimisation. The package comes with pre-sets and examples for configuring the excellent [3D Forge village assets](https://assetstore.unity.com/publishers/2970) with specific presets for each of the 3 Unity render pipelines. Everything is extensible and configurable and you are encouraged to create your own presets and make the most out of the tools for your particular project and use cases.
 
-Note that third party assets are not required to use the tools in this package.
+You can find [a short video showcasing the main features of the package](https://youtu.be/YNRg8EQDIb4) on my YouTube channel.
+
+> [!IMPORTANT]
+>
+> Third party assets are not required to use the tools in this package. No unlicensed 3rd party assets whatsoever are included in either the package or the samples.
+>
 
 ![](.\media\buildingtoolsbanner.png)
 

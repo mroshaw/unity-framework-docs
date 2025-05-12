@@ -13,6 +13,8 @@ There are two types of object that you'll be interested in:
 1. Building Tools - these are individual tools that perform a particular purpose.
 2. Building Wizard Settings - these are groups of Building Tools that drive the Building Editor UI window.
 
+All settings benefit from custom inspector drawers, including inline editors for settings with embedded class or scriptable object instance properties. If you have Odin Inspector installed, you'll get some slightly fancier inspectors.
+
 ## Building Tools
 
 Each tool in the package is represented as an instance of the base `BuildingTool` class, which is itself inherits from `ScriptableObject`. The configuration for each tool is therefore held within that instance, and can be viewed and modified by selecting the instance in the project window, or by using the settings cogs in the main editor window.

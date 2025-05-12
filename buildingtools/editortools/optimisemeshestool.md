@@ -12,9 +12,26 @@ This tool helps to reduce the number of draw calls and shadow casters on your se
 
 The Optimise Meshes Tool:
 
-- Combines meshes from interior, exterior, interior prop and exterior prop layers respectively, generating one mesh for each group.
+- Combines meshes from interior, exterior, interior prop and exterior prop layers respectively, generating one mesh per material for each group.
 - Ignores meshes that have been flagged by the "Ignore Mesh Combine" component, where dynamic behaviour is required. For example, moving doors.
 - Saves the combined meshes as assets and reconfigures the Game Object to use the new meshes.
+
+You can also opt to merge the whole building, by unticking the "Combine Meshes by Layer" parameter. This means meshes that share materials across interior, exterior and prop layers will be merged, giving you less control over the behaviour of light on the resulting mesh renderers.
+
+The resulting merge meshes are saved as assets, to be folder specified in the parameters - the folder is created in the "Assets" directory in your project, if it doesn't already exist.
+
+![](..\media\optimisemeshes.png)
+
+In the image above, you can see that all of the exterior meshes have been combined into a small number of larger meshes, one mesh for each unique material.
+
+Once you've run the tool against a building, you'll notice a new component has been added to the Game Object, called `MeshCombineRollBack`. The purpose of this component is, unsurprisingly, to allow you to undo the process and restore the Game Object. It does this by storing an "Audit" of the changes made by the optimisation process to that specific building Game Object, and provides a button that allows you to undo those changes. Specifically, this component will:
+
+1. Re-enable all of the original Mesh Renderers that it deactivated.
+2. Delete the merge mesh Game Objects from your building.
+3. Delete the mesh and Game Object prefab assets that were created.
+4. Delete the `MeshCombineRollBack` component itself.
+
+You can optionally retain any or all of the deleted objects by unchecking the corresponding checkbox in the component inspector, prior to clicking the button. You can also remove the audit altogether, if it's starting to take up too much space in your scene asset for example, by simply removing the component from the Game Object. You will, of course, then lose the ability to easily roll back.
 
 ## Parameters
 
