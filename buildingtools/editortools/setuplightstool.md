@@ -24,7 +24,7 @@ The Set Up Lighting tool:
 - Replaces "built in" Flare components with SRP Flare components, along with a preconfigured sample flare setup.
 - Configures the `RenderingLayerMask` or `CullingLayerMask`, depending on the active render pipeline.
   - This gives you control over the influence of exterior, interior and lights based on where a mesh is located inside or outside your building.
-- Adds an `OnDemandShadowMapUpdate` component, if configured to do so, that helps control the frequency of shadow updates triggered by the light. This can significantly improve the performance of shadow rendering in the scene.
+- Adds an `OnDemandShadowMapUpdate` component, if configured to do so, that helps control the frequency of shadow updates triggered by the light. This can significantly improve the performance of shadow rendering in the scene. Works on HDRP only, for the moment.
 
 There are two primary goals of this tool:
 
@@ -81,9 +81,9 @@ Each of these properties is itself an instance of a class with the following pro
 | Flame Names                        | Game Objects that contain any of these strings will be configured as flames by the tool. This is then used to toggle flames on and off along with the light itself. |
 | Use Lens Flare                     | Determines whether Lens Flare components should be added and configured for this light type. |
 | Lens Flare Intensity               | The intensity of the lens flare, if one is added.            |
-| Lens Flare Data                    | HDRP and URP Render Pipelines only. SRP Lens Flare configuration for the lens flare, if one is added. |
-| Add On Demand Shadow Map Component | HDRP and URP Render Pipelines only. If true, an `OnDemandShadowMapUpdate` component will be added to the light. This can be configured to update the shadow on the light every n frames or m seconds. This can be a significant performance improvement if you are currently updating shadows every frame. |
-| Shadow Refresh Rate                | HDRP and URP Render Pipelines only. Sets the number of frames to wait before refreshing the shadows of a light, driven by the new `OnDemandShadowUpdate` component. |
+| Lens Flare Data                    | HDRP and URP only. SRP Lens Flare configuration for the lens flare, if one is added. |
+| Add On Demand Shadow Map Component | HDRP only. If true, an `OnDemandShadowMapUpdate` component will be added to the light. This can be configured to update the shadow on the light every n frames or m seconds. This can be a significant performance improvement if you are currently updating shadows every frame. |
+| Shadow Refresh Rate                | HDRP only. Sets the number of frames to wait before refreshing the shadows of a light, driven by the new `OnDemandShadowUpdate` component. |
 | Preset Settings                    | Light properties to be applied to each light. See the "Light Presets" section below. |
 
 ### Light Presets
@@ -92,13 +92,13 @@ Each of the "Preset Settings" properties of this tool are themselves Scriptable 
 
 Currently supported properties are:
 
-| Parameter                      | Notes                               |
-| ------------------------------ | ----------------------------------- |
-| Range                          |                                     |
-| Intensity                      |                                     |
-| Radius                         | HDRP and URP Render Pipelines only. |
-| Rendering Layer Mask           | HDRP and URP Render Pipelines only. |
-| Culling Layer Mask (BIRP only) | Built In Render Pipeline only.      |
-| Filter Color                   |                                     |
-| Temperature                    |                                     |
-| Lightmap Bake Type             |                                     |
+| Parameter            | Notes                          |
+| -------------------- | ------------------------------ |
+| Range                |                                |
+| Intensity            |                                |
+| Radius               | HDRP and URP only.             |
+| Rendering Layer Mask | HDRP and URP only.             |
+| Culling Layer Mask   | Built In Render Pipeline only. |
+| Filter Color         |                                |
+| Temperature          |                                |
+| Lightmap Bake Type   |                                |

@@ -28,7 +28,7 @@ The latest version of Building Tools provides these functions:
   - Adds a `BuildingLightManager` game object to your active scene and adds a  `BuildingLightController` component and configures `BuildingLight` components on all lights within your building Game Object. This gives you loads of control over light states, with specific public methods for turning on and off candles, fires, and outdoor lights.
   - Preconfigure light properties, allowing you to apply consistent preset light properties (think intensity, range, temperature etc), across all similar light types.
   - Replaces unsupported `LensFlare` components with `SRPLensFlare` components. (**URP and HDRP only**)
-  - Optionally adds a `OnDemandShadowMapUpdate` component, allowing you to fine tune shadow updates on individual lights, offering significant performance gains. (**URP and HDRP only**)
+  - Optionally adds a `OnDemandShadowMapUpdate` component, allowing you to fine tune shadow updates on individual lights, offering significant performance gains. (**HDRP only**)
   - Samples include a very simple `TimeOfDay` component, demonstrating how lights can be turned on and off as time progresses.
 - **Configure Volumes**
   - Adds a lighting `Volume` with an "interior volume profile", allowing you to fine tune lighting within the bounds of your building. (**URP and HDRP only**)

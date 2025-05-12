@@ -51,8 +51,8 @@ Currently supported properties are:
 | Receive GI             |                                                              |
 | Light Probe Usage      |                                                              |
 | Reflection Probe Usage | Built In Render Pipeline only.                               |
-| Scale in Lightmap      | HDRP and URP Render Pipelines only.                          |
+| Scale in Lightmap      | HDRP and URP only.                                           |
 | Motion Vectors         |                                                              |
 | Dynamic Occlusion      |                                                              |
-| Rendering Layer Mask   | HDRP and URP Render Pipelines only.                          |
-| Priority               | HDRP and URP Render Pipelines only.                          |
+| Rendering Layer Mask   | HDRP and URP only.                                           |
+| Priority               | HDRP and URP only.                                           |
