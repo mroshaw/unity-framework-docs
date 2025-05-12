@@ -9,6 +9,6 @@ The change log for the various released versions can be found in their respectiv
 
 The change log for the Daft Apple Core package is shown below.
 
-## Version 0.9.0
+## Version 1.0.0 - May 12th 2025
 
 Initial release.
