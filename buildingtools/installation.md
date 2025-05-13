@@ -6,9 +6,9 @@ parent: Building Tools
 
 # Installation
 
-## Package Package and Dependencies
+## Package and Dependencies
 
-The package relies on a number of scripts and resources in the "daftapple-core" package. You must install this first through package manager:
+The package relies on a number of scripts and resources in the [daftapple-core](https://github.com/mroshaw/daftapple-core) package. You must install this first through package manager:
 
 1. Open the package manager window.
 2. From the menu in the top left, pick "Install package from git URL..."
