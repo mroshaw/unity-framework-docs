@@ -1,7 +1,7 @@
 ---
-title: HDRP Time and Weather
+title: Time and Weather
 nav_order: 5
 ---
 
-# HDRP Time and Weather
+# Time and Weather
 
