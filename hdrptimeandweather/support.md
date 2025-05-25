@@ -1,7 +1,7 @@
 ---
 title: Support and How to Contribute
 nav_order: 4
-parent: Building Tools
+parent: Time and Weather
 ---
 
 # Support and How to Contribute
@@ -14,7 +14,7 @@ Please ensure any code changes are aligned to the coding style, standards and ar
 
 ## Getting Support
 
-All issues and suggestions should be submitted via the [Issues](https://github.com/mroshaw/building-tools/issues) tab in the GitHub repository. Please take time to give issues a descriptive title and as detailed a description as you possible can. Please include these details at a minimum:
+All issues and suggestions should be submitted via the [Issues](https://github.com/mroshaw/hdrp-time-and-weather/issues) tab in the GitHub repository. Please take time to give issues a descriptive title and as detailed a description as you possible can. Please include these details at a minimum:
 
 - Full Version of Unity (e.g. 6000.0.47f1)
 - Render Pipeline (e.g. HDRP, URP, Built In)

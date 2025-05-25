@@ -1,7 +1,7 @@
 ---
 title: Introduction
 nav_order: 1
-parent: HDRP Time and Weather
+parent: Time and Weather
 ---
 
 # HDRP Time and Weather

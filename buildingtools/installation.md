@@ -1,6 +1,6 @@
 ---
 title: Installation
-nav_order: 4
+nav_order: 5
 parent: Building Tools
 ---
 
@@ -12,7 +12,7 @@ The package relies on a number of scripts and resources in the [daftapple-core](
 
 1. Open the package manager window.
 2. From the menu in the top left, pick "Install package from git URL..."
-3. Copy and paste this URL: https://github.com/mroshaw/daftapple-core.git![](.\media\installcorepackage.png)
+3. Copy and paste this URL: https://github.com/mroshaw/daftapple-core.git![](..\.\media\installcorepackage.png)
 4. Click install.
 5. You can now install the "building-tools" package by following the same process with this URL: https://github.com/mroshaw/building-tools.git![](.\media\installbuildingpackage.png)
 

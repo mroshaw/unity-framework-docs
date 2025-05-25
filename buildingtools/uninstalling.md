@@ -1,6 +1,6 @@
 ---
 title: Uninstalling
-nav_order: 5
+nav_order: 6
 parent: Building Tools
 ---
 
@@ -12,7 +12,7 @@ A small number of steps are required to completely uninstall the Building Tools 
 
 You can uninstall the packages by selecting the package in Package Manager, under "In Project", and clicking the "Remove" button. You should remove the Building Tools package first, then the Core package:
 
-![](.\media\uninstallpackages.png)
+![](..\.\media\uninstallcorepackages.png)
 
 ## Delete any installed samples
 
