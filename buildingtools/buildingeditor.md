@@ -18,7 +18,7 @@ You'll find specific details and instructions for each of the core tools in the 
 The main editor window can be accessed via the Unity editor menu:
 
 ```
-Daft Apple Games > Building Tools > Building Editor
+Tools > Daft Apple Games > Building Tools > Building Editor
 ```
 
 The window looks like this:
